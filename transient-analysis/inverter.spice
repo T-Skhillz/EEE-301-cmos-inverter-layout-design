@@ -1,0 +1,27 @@
+** sch_path: /home/timi/projects/cmos_inverter_layout.sch
+**.subckt cmos_inverter_layout
+X1 Vout Vin GND GND sky130_fd_pr__nfet_01v8 L=0.3u W=1u nf=1 ad=2.9e-07 as=2.9e-07 pd=0.580002 ps=0.580002 nrd=290000 nrs=290000
++ sa=0 sb=0 sd=0 mult=1
+X2 Vout Vin VDD VDD sky130_fd_pr__pfet_01v8 L=0.3u W=2u nf=1 ad=5.8e-07 as=5.8e-07 pd=0.580004 ps=0.580004 nrd=145000 nrs=145000
++ sa=0 sb=0 sd=0 mult=1
+V1 Vin GND PULSE(0,1.8,0ns,1ns,1ns,50ns,104ns)
+V2 VDD GND 1.8
+C1 Vout GND 1p
+**** begin user architecture code
+
+
+.lib /home/timi/eda_tools/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.tran 10ns 100ns
+
+.control
+  save all
+  run
+  plot v(Vout) v(Vin)
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
