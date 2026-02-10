@@ -8,6 +8,15 @@ This section documents how I designed the CMOS inverter schematic using Xschem a
 
 *Figure: CMOS inverter schematic designed in Xschem using Sky130 PDK.*
 
+# CMOS Inverter Schematic File
+
+The working schematic is available as:
+```
+inverter.sch
+```
+
+Open this file in Xschem to view or run simulations directly.
+
 ## Opening Xschem
 
 I started by opening Xschem from the Linux terminal:
