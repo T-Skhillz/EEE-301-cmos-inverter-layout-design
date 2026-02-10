@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder shows the transient analysis of the CMOS inverter. It uses the schematic `inverter.sch` and the Sky130 SPICE model `inverter.spice`. Open `inverter.sch` in Xschem to run the simulation and see the results.
+This folder shows the transient analysis of the CMOS inverter. It uses the schematic `inverter.sch` and the Sky130 SPICE model `trans.spice`. Open `inverter.sch` in Xschem to run the simulation and see the results.
 
 Transient analysis helps verify that the inverter works correctly and characterizes switching delays.
 
@@ -63,7 +63,7 @@ This runs the simulation from 10 ns to 100 ns.
 ## Notes
 
 * Open `inverter.sch` to see the schematic used for this simulation
-* Open `inverter.spice` to view the transistor models
+* Open `trans.spice` to view the transistor models
 * Choose proper timestep for accurate waveforms
 * Capacitive load affects switching speed
 * Temperature and process variations can impact timing
