@@ -123,6 +123,9 @@ This method is much faster than manual drawing and was used for this layout.
 ![alt text](devices1.png)
 *Device Parameterization: It allows you to change variables (parameters) to automatically redraw the layout.*
 
+![alt text](nmos.png)
+*The Built-in Device cell - NMOS*
+
 ---
 
 ### 3. Importing the SPICE Netlist (Instructor Method)
