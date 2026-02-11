@@ -36,7 +36,7 @@ A separate schematic file was saved that contains:
 
 This schematic is dedicated for layout and netlist export.
 
-![CMOS Inverter Schematic with IO Ports](schematic-image.png)
+![CMOS Inverter Schematic with IO Ports](images/schematic-image.png)
 
 | Signal | Type  | Function      |
 | ------ | ----- | ------------- |
