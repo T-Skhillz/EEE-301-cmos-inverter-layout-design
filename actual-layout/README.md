@@ -1,4 +1,3 @@
-```markdown
 # CMOS Inverter Layout (Magic VLSI – Sky130)
 
 This README documents the physical layout of a CMOS inverter using **Magic VLSI** and the **Sky130 PDK**.
