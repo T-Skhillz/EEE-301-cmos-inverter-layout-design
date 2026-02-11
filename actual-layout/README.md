@@ -97,7 +97,7 @@ Magic automatically creates an `ntransistor` where poly crosses N-diffusion.
 
 **Example Output:**
 
-![NMOS Transistor in Magic](nmos_layout.png)
+![NMOS Transistor in Magic](images/nmos_layout.png)
 
 *Striped pattern shows the ntransistor region formed*
 
@@ -120,10 +120,10 @@ Steps:
 
 This method is much faster than manual drawing and was used for this layout.
 
-![alt text](devices1.png)
+![alt text](images/devices1.png)
 *Device Parameterization: It allows you to change variables (parameters) to automatically redraw the layout.*
 
-![alt text](nmos.png)
+![alt text](images/nmos.png)
 *The Built-in Device cell - NMOS*
 
 ---
@@ -140,13 +140,13 @@ This method was demonstrated by the instructor and is useful for larger designs.
 
 ### Layout Diagrams
 
-![CMOS Inverter Layout](layout_diagram.png)
+![CMOS Inverter Layout](images/layout_diagram.png)
 *Figure 1: Full inverter layout (DRC = 0)*
 
-![PMOS with VDD port diagram](PMOS_VDD_port.png)
+![PMOS with VDD port diagram](images/PMOS_VDD_port.png)
 *Figure 2: PMOS region with VDD*
 
-![NMOS with VSS, Vin and Vout ports](NMOS_with_ports.png)
+![NMOS with VSS, Vin and Vout ports](images/NMOS_with_ports.png)
 *Figure 3: NMOS region with VIN, VOUT, and VSS*
 
 ---
